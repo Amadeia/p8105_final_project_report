@@ -50,6 +50,7 @@ We then filtered to include only these 8 districts in our analyses
 We also created a “party” variable to label whether a specific district is Democrat or Republican 
 
 Direct links to datasets, where the files exist:
+
 https://www.nytimes.com/elections/results/texas-senate
 https://raw.githubusercontent.com/googletrends/data/master/Search_Data_US_Congressional_District_26Sep2018.csv
 https://drive.google.com/file/d/1mpBjlmy5CThvrPGgAqlEP2x7OFvnF4VH/view?usp=sharing
