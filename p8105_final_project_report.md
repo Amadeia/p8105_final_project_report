@@ -4,7 +4,7 @@ Report
 <u>Motivation</u>
 -----------------
 
-Our project goals were to analyze Google Trends data for the 2018 midterm elections. We chose to focus on Texas because of the close race between Beto O’Rourke and Ted Cruz. We wanted to identify the most highly searched political topics and examine different geographic components, such as where certain searches occurred. Our motivation is that this is a currently relevant issue in the U.S. and allows for analyses of civic engagement among American voters.
+Our project goals were to analyze Google Trends data for the 2018 midterm elections. We chose to focus on Texas because of the close race between Beto O’Rourke and Ted Cruz. We wanted to identify the most highly searched political topics and examine different geographic components (by county and congressional district), such as where certain searches occurred and if this may have impacted voting patterns for either candidate. Our motivation is that this is a currently relevant issue in the U.S. and allows for analyses of civic engagement among American voters.
 
 <u>Related Work </u>
 --------------------
@@ -24,9 +24,15 @@ A blog website that focuses on using statistical analysis to model poll predicti
 ------------
 
 -   Refer to our Data Source Tab for a detailed description of our data sources
+
+<https://amadeia.github.io/p8105_final_project/datasource.html>
+
 -   We downloaded CSV files from Google Trends Datastore for data on the top searched issues by US Congressional District
 -   We scraped election results data from a New York Times article that reported on the midterm elections.
--   Most searched topics analyses
+
+### Preliminary Data Cleaning
+
+For the scraped data from the New York Times, we used the janitor function for formatting of names. We ultimately merged all three datasets to perform our analyses.
 
 ##### **Top 5 Most Searched Topics**
 
