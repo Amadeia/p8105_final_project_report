@@ -23,9 +23,7 @@ A blog website that focuses on using statistical analysis to model poll predicti
 <u>Data </u>
 ------------
 
--   Refer to our Data Source Tab for a detailed description of our data sources
-
-<https://amadeia.github.io/p8105_final_project/datasource.html>
+-   Refer to our [Data Source Tab](https://amadeia.github.io/p8105_final_project/datasource.html) for a detailed description of our data sources.
 
 -   We downloaded CSV files from Google Trends Datastore for data on the top searched issues by US Congressional District
 -   We scraped election results data from a New York Times article that reported on the midterm elections.
@@ -47,7 +45,7 @@ Using <https://www.census.gov/mycd/>, we found the top 5 most populated district
 
 ##### **Most Democrat vs Republican Districts**
 
-Using <https://www.cookpolitical.com/index.php/pvi-map-and-district-list>, we decided to use the Cook Partisan Voting Index (PVI) as a measure for how Democrat or Republican each district is. The most Democratic districts were 9, 30, 18, and 33. The most Republican districts were 13, 11, 8, and 4. We then filtered to include only these 8 districts in our analyses We also created a “party” variable to label whether a specific district is Democrat or Republican
+We decided to use the [Cook Partisan Voting Index (PVI)](https://www.cookpolitical.com/index.php/pvi-map-and-district-list) as a measure for how Democrat or Republican each district is. The most Democratic districts were 9, 30, 18, and 33. The most Republican districts were 13, 11, 8, and 4. We then filtered to include only these 8 districts in our analyses We also created a “party” variable to label whether a specific district is Democrat or Republican
 
 Direct links to datasets, where the files exist:
 
@@ -57,13 +55,13 @@ Direct links to datasets, where the files exist:
 ----------------------------
 
 -   We created an interactive map of Texas to show voting results by county
--   First, we created a bar graph of total votes for each party candidate and found that there were significantly less votes for Dikeman
+-   First, we created a bar graph of total votes for each party candidate and found that there were significantly less votes for Neal Dikeman
 -   Moving forward, we narrowed our results to Ted Cruz and Beto O’Rourke
 -   Using the procedure described in Data, we were able to identify the most searched topics across districts in Texas. The most searched is health care with 509.87 search frequencies. Below is an image of top topics searched.
 
 <center>
 <img src="image/top_topics_searched.png" style="width:30%">
-
+</center>
 <u>Additional Analysis </u>
 ---------------------------
 
