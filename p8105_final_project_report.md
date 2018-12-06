@@ -20,8 +20,6 @@ A blog website that focuses on using statistical analysis to model poll predicti
 -   What are the most highly searched political topics and how do they vary by county or district?
 -   How do political topic searches differ by party (Democrat vs Republican)?
 
-Over the course of the project, we realized that we only had Google Trends data from September to November 2018, which limited our ability to look at Trend data over time. Consequently, we restricted our analyses to this year’s data, specifically September 2018, and we did not compare 2018 data to that of previous years.
-
 <u>Data </u>
 ------------
 
@@ -182,3 +180,7 @@ fisher.test(chi_square_df)
 -   The results of the Fisher's Exact Test were not statistically significant at the alpha=0.05 level (p=0.1008). Given this result, we have insufficient evidence to conclude that there is a relationship between political party and the most searched topics (health care, immigration, medicaid, medicare, September 11 attacks).
 -   Therefore, it seems that these particular topics are equally of interest regardless of political ideation. If instead we had analyzed topics that we believe are relevant to a rural vs. urban area, we may have had significant results because usually there is a vast difference in political ideology between these geographies.
 -   However, given the how the Google trend data is framed, we noticed that it would be difficult to compare geographies that may be distinctly different in size, as a bigger population will result in more topic searches overall.
+
+### Changes in Project Over time
+
+Over the course of the project, we realized that we only had Google Trends data from September to November 2018, which limited our ability to look at Trend data over time. Consequently, we restricted our analyses to this year’s data, specifically September 2018, and we did not compare 2018 data to that of previous years.
