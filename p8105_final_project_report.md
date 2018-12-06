@@ -45,6 +45,8 @@ Using <https://www.census.gov/mycd/>, we found the top 5 most populated district
 
 Using <https://www.cookpolitical.com/index.php/pvi-map-and-district-list>, we decided to use the Cook Partisan Voting Index (PVI) as a measure for how Democrat or Republican each district is. The most Democratic districts were 9, 30, 18, and 33. The most Republican districts were 13, 11, 8, and 4. We then filtered to include only these 8 districts in our analyses We also created a “party” variable to label whether a specific district is Democrat or Republican
 
+Direct links to datasets, where the files exist: <https://www.nytimes.com/elections/results/texas-senate> <https://raw.githubusercontent.com/googletrends/data/master/Search_Data_US_Congressional_District_26Sep2018.csv> <https://drive.google.com/file/d/1mpBjlmy5CThvrPGgAqlEP2x7OFvnF4VH/view?usp=sharing>
+
 <u>Exploratory Analysis </u>
 ----------------------------
 
