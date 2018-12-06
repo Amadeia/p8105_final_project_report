@@ -28,7 +28,7 @@ A blog website that focuses on using statistical analysis to model poll predicti
 -   We downloaded CSV files from Google Trends Datastore for data on the top searched issues by US Congressional District
 -   We scraped election results data from a New York Times article that reported on the midterm elections.
 
-### Preliminary Data Cleaning
+##### **Preliminary Data Cleaning**
 
 For the scraped data from the New York Times, we used the janitor function for formatting of names. We ultimately merged all three datasets to perform our analyses.
 
@@ -69,7 +69,7 @@ Direct links to datasets, where the files exist:
 
 Using a merged dataset with the searched topics and vote results, we ran linear regressions to examine the linear relationship between all searched topics and the number of votes for the two different candidates across counties and districts in Texas.
 
-We wanted to examine if there was a relationship between the searched topics (health care, immigration, medicaid, medicare, and September 11 attacks) and actual vote results for the candidates.
+We wanted to examine if there was a relationship between the searched topics (health care, immigration, medicaid, medicare, and September 11 attacks) and actual vote results for the candidates. We decided to perform linear regressions to statistically test these relationships because both outcome and predictor variables are continuous. Additionally, it would make sense in terms of interpretation; how much of an increase in search frequency would on average impact the number of votes either candidate received.
 
 In our models, we used the variable for candidates’ poll counts as our continuous outcome, and one of the five searched topics as our predictor. We ran the models individually with one searched topic at a time.
 
